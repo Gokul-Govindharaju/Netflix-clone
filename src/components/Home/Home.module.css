@@ -1,0 +1,129 @@
+/* .home{
+    background-color: black;
+} */
+
+
+/* .home{
+    position: relative;
+      height: 100vh;
+     background-color: #00081d;
+   }
+   
+   .home::before{
+     content: "";
+     position: absolute;
+     top: 0;
+     bottom: 0;
+     left: 0;
+     right: 0;
+     background-image: url(../../assets/images/home.jpg);
+     background-size: cover;
+     background-repeat: no-repeat;
+     opacity: 0.6;
+     background-color: #00081d;
+   } */
+/* .hero{
+    position: absolute;
+   
+  
+   } 
+
+   */
+
+   .hero{
+    padding-bottom: 20px ;
+    
+    
+   }
+
+   .logout{
+    
+      background-color: rgb(227, 15, 15);
+      border: none;
+      color: white;
+      height: 40px;
+      display: inline-block;
+      font-size: 20px;
+      margin-top: 30px;
+      padding: 5px;
+      border-radius: 4px;
+      margin-top: 10px;
+      margin-bottom: 5px;
+      text-decoration: none;
+      margin-left: 1100px;
+    }
+   
+   .heroimg{
+     height: 630px;
+
+     position: relative;
+     display: flex;
+   }
+   .movietitle{
+     color: white;
+   }
+   .bgimg{
+    width: 100vw;
+    height: 630px;
+
+    background-image: linear-gradient(to right ,#00081d,transparent);
+  
+    position: absolute;
+
+   }
+   .mainimg{
+    
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+   } 
+
+   .details{
+    position: absolute;
+    top: 50%;
+  
+    margin-left:2rem ;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+   }
+   .playbutton{
+    border: 1px solid white ;
+    background-color: grey;
+    color: black;
+    padding: 0.2rem 0.6rem;
+    border-radius: 5px;
+    
+   }
+
+   .playbutton span{
+    margin-right: 5px;
+   }
+
+   .watchbutton{
+    border: 1px solid white ;
+    background-color:black;
+    color: white;
+    margin-left: 0.5rem;
+    padding: 0.2rem 0.6rem;
+    border-radius: 5px;
+
+   }
+
+   .releasedate{
+     color: white;
+   }
+
+   .hero{
+    background-color: #00081d;
+   }
+
+  .up{
+    margin: 40px;
+  }
+   .up h3{
+     color: white;
+     text-align:start;
+   }

@@ -1,0 +1,90 @@
+.backgroun{
+    position: relative;
+      height: 100vh;
+     background-color: #00081d;
+   }
+   
+   .backgroun::before{
+     content: "";
+     position: absolute;
+     top: 0;
+     bottom: 0;
+     left: 0;
+     right: 0;
+     background-image: url(../../assets/images/login.jpg);
+   
+     background-repeat: no-repeat;
+     opacity: 0.6;
+     /* background-color: #00081d; */
+   }
+
+   .login{
+    position: relative;
+    background-color: rgba(7, 7, 7,0.7);
+    margin: auto ;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    color: aliceblue;
+    align-items: center;
+    padding: 40px 0;
+    top: 130px;
+    
+   }
+
+   .login form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    gap: 13px;
+    margin-top: 5px;
+    
+   }
+   .login form input::placeholder{
+    color:white ;
+   }
+   .login h3{
+    font-size: 36px;
+   }
+
+   .login input {
+     height: 50px;
+     background-color: grey;
+     border-radius: 5px;
+     border: none;
+     cursor: pointer;
+   }
+
+   .login button{
+    background-color: rgb(227, 15, 15) ;
+    height: 40px;
+    border: none;
+    color:white;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    margin-top: 8px;
+   }
+
+   .login p{
+    margin-top: 40px;
+   }
+   .help{
+    display: flex;
+    justify-content: space-between;
+   }
+
+   .hel label{
+    margin-bottom: 10px;
+   }
+
+   .log{
+     position: relative;
+     top: 45px;
+   }
+
+   .login a{
+    text-decoration: none;
+    color: red;
+   }

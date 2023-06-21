@@ -1,0 +1,54 @@
+.background{
+ position: relative;
+   
+  background-color: #00081d;
+}
+
+.background::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: url(../../assets/images/login.jpg);
+
+  background-repeat: no-repeat;
+  opacity: 0.6;
+  
+}
+.container{
+  position: relative;
+  width: 1350px;
+  margin: auto;
+  z-index: 2;
+}
+
+.logos{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+.logos img{
+    width: 150px;
+    
+}
+
+.logos a{
+  border: none;
+  color: white;
+  font-size: 16px;
+  background-color: #e30f0f;
+  padding: 5px 16px;
+  border-radius: 4.5px;
+  letter-spacing: 0;
+  text-decoration: none;
+}
+
+.logos  a:hover{
+  color: white;
+  background-color:#9f0b0b;
+}

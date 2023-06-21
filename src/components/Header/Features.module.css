@@ -1,0 +1,31 @@
+.features{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 350px 350px 350px 350px;
+    background-color:#121c35;
+    margin-top: 120px;
+    border-radius: 10px;
+    padding: 20px;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    row-gap: 90px;
+    height: 1700px;
+}
+
+.features img {
+    width: 350px;
+
+}
+
+.features p {
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.features h2 {
+    color: white;
+    font-size: 50px;
+}

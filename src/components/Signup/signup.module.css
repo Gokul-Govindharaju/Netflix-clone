@@ -1,0 +1,71 @@
+.navbar{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar img{
+    width: 100px;
+    height:60px;
+}
+
+.navbar a{
+  border: none;
+  color: white;
+  font-size: 16px;
+  background-color: rgb(227, 15, 15);
+  padding: 5px 16px;
+  border-radius: 4.5px;
+  letter-spacing: 0;
+  text-decoration: none;
+}
+
+.container{
+    position: relative;
+    width: 1350px;
+    margin: auto;
+    z-index: 2;
+  }
+
+  .password {
+    margin: 40px auto;
+    width: 25%;
+    text-align:justify;
+}
+
+.password h3{
+   font-size: 27px;
+   margin-top: 10px;
+}
+/* p:first-child{
+   font-size: 14px;
+   font-weight: 400;
+   margin-bottom: 5px;
+}
+p:nth-child(3){
+    font-size: 20px;
+    margin-top: 10px;
+} */
+.password form{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+ .password input{
+    width: 340px;
+    height: 40px;
+    ;
+  }
+
+ .password button{
+    background-color: rgb(227, 15, 15);
+    border: none;
+    color: white;
+    height: 40px;
+    width: 350px;
+    font-size: 20px;
+    margin-top: 30px;
+  }
+
+  

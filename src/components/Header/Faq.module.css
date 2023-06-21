@@ -1,0 +1,34 @@
+.faq{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 30px;
+    gap: 5px;
+    padding: 60px;
+}
+
+.faq h3{
+    color: white;
+    font-size: 42px;
+}
+
+.faq button{
+    width: 1200px;
+    height: 64px;
+    text-align: start;
+    background-color:#121c35 ;
+    color: white;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    
+}
+.faq button:hover{
+    background-color: #4d5261;
+}
+
+.faq p{
+    font-size: 20px;
+    color: white;
+    text-align: justify;
+}
